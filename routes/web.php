@@ -19,6 +19,7 @@ Route::middleware(['splade'])->group(function () {
     Route::get('/login', fn() => view('auth.login'))->name('login');
     Route::get('/register', fn() => view('auth.register'))->name('register');
     Route::get('/home', fn() => view('home.home'))->name('home');
+    Route::get('users', fn() => view('home.users'))->name('users');
 
     // Registers routes to support the interactive components...
     Route::spladeWithVueBridge();

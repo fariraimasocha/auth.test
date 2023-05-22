@@ -21,6 +21,11 @@
                         <x-nav-link href="{{ route('login') }}" :active="request()->routeIs('login')">
                             {{ __('Login') }}
                         </x-nav-link>
+                        @auth()
+                            <x-nav-link href="{{ route('users') }}" :active="request()->routeIs('users')">
+                                {{ __('Users') }}
+                            </x-nav-link>
+                        @endauth
 
                         <x-nav-link href="{{ route('docs') }}" :active="request()->routeIs('docs')">
                             {{ __('Docs') }}

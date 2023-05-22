@@ -17,5 +17,22 @@
         "tailwindcss": "^3.3.0",
         "vite": "^4.0.0",
         "vue": "^3.2.37"
+    },
+    "prettier": {
+        "singleQuote": true,
+        "tabWidth": 4,
+        "useTabs": false,
+        "trailingCommaPHP": true,
+        "overrides": [
+            {
+                "files": [
+                    "*.blade.php"
+                ],
+                "options": {
+                    "tabWidth": 4,
+                    "parser": "blade"
+                }
+            }
+        ]
     }
 }

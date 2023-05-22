@@ -1,5 +1,4 @@
 <x-layout>
-
     <div class="flex justify-center items-center h-screen">
         <form class="w-90 shadow-lg">
             <div class="px-5 py-3 bg-white">

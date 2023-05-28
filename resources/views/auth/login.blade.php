@@ -11,7 +11,7 @@
                     <label for="email" class="text-gray-600">Email</label>
                     <div class="relative">
                         <input type="text" name="email"
-                            class="h-10 block w-full rounded-sm px-4 py-3 pr-10 text-sm focus:border-blue-500 focus:ring-blue-500 ring-gray-100"
+                            class="h-10 block w-full rounded-sm px-4 py-3 pr-10 text-sm focus:border-blue-500 focus:ring-blue-500 ring-gray-100 border border-gray-300"
                             placeholder="Email" />
                         <svg class="absolute right-3 top-2.5 h-5 w-5 text-gray-500" xmlns="http://www.w3.org/2000/svg"
                             fill="white" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -23,11 +23,12 @@
                         <div class="alert alert-danger">{{ $message }}</div>
                     @enderror
                 </div>
+
                 <div class="mt-3 w-80">
                     <label for="password" class="text-gray-600">Password</label>
                     <div class="relative">
                         <input type="password" name="password"
-                            class="h-10 block w-full rounded-sm px-4 py-3 pr-10 text-sm focus:border-blue-500 focus:ring-blue-500 ring-gray-100"
+                            class="h-10 block w-full rounded-sm px-4 py-3 pr-10 text-sm focus:border-blue-500 focus:ring-blue-500 ring-gray-100 border border-gray-300"
                             placeholder="Password" />
                         <svg class="absolute right-3 top-2.5 h-5 w-5 text-gray-500" xmlns="http://www.w3.org/2000/svg"
                             fill="white" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -79,7 +80,7 @@
                 </div>
 
                 <div class="mt-2 w-80 text-blue-700">
-                    <h1><a href="#">I forgot my password</a></h1>
+                    <h1><a href="{{ route('forgot-password') }}">I forgot my password</a></h1>
                     <h1><a href="{{ route('register') }}">Create an account</a></h1>
                 </div>
             </div>

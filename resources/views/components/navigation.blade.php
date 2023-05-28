@@ -21,6 +21,14 @@
                         <x-nav-link href="{{ route('login') }}" :active="request()->routeIs('login')">
                             {{ __('Login') }}
                         </x-nav-link>
+
+                        <x-nav-link href="{{ route('forgot-password') }}" :active="request()->routeis('forgot-password')">
+                            {{ __('Forgot Password') }}
+                        </x-nav-link>
+
+                        <x-nav-link href="{{ route('reset-password') }}" :active="request()->routeIs('reset')">
+                            {{ __('Reset Password') }}
+                        </x-nav-link>
                         @auth()
                             <x-nav-link href="{{ route('users') }}" :active="request()->routeIs('users')">
                                 {{ __('Users') }}

@@ -10,7 +10,7 @@
                     <label for="name" class="text-gray-600">Full Name</label>
                     <div class="relative">
                         <input type="text" name="name"
-                            class="h-10 block w-full rounded-sm px-4 py-3 pr-10 text-sm focus:border-blue-500 focus:ring-blue-500 ring-gray-100"
+                            class="h-10 block w-full rounded-sm px-4 py-3 border border-gray-300 pr-10 text-sm focus:border-blue-500 focus:ring-blue-500 ring-gray-100"
                             placeholder="Full Name" />
                         <svg class="absolute right-3 top-2.5 h-5 w-5 text-gray-500" xmlns="http://www.w3.org/2000/svg"
                             fill="white" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -26,7 +26,7 @@
                     <label for="email" class="text-gray-600">Email</label>
                     <div class="relative">
                         <input type="text" name="email"
-                            class="h-10 block w-full rounded-sm px-4 py-3 pr-10 text-sm focus:border-blue-500 focus:ring-blue-500 ring-gray-100"
+                            class="h-10 block w-full rounded-sm px-4 py-3 border border-gray-300 pr-10 text-sm focus:border-blue-500 focus:ring-blue-500 ring-gray-100"
                             placeholder="Email" />
                         <svg class="absolute right-3 top-2.5 h-5 w-5 text-gray-500" xmlns="http://www.w3.org/2000/svg"
                             fill="white" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -42,7 +42,7 @@
                     <label for="password" class="text-gray-600">Password</label>
                     <div class="relative">
                         <input type="password" name="password"
-                            class="h-10 block w-full rounded-sm px-4 py-3 pr-10 text-sm focus:border-blue-500 focus:ring-blue-500 ring-gray-100"
+                            class="h-10 block w-full rounded-sm border border-gray-300 px-4 py-3 pr-10 text-sm focus:border-blue-500 focus:ring-blue-500 ring-gray-100 border border-gray-300"
                             placeholder="Password" />
                         <svg class="absolute right-3 top-2.5 h-5 w-5 text-gray-500" xmlns="http://www.w3.org/2000/svg"
                             fill="white" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -58,7 +58,7 @@
                     <label for="password" class="text-gray-600">Confirm Password</label>
                     <div class="relative">
                         <input type="password" name="password_confirmation"
-                            class="h-10 block w-full rounded-sm px-4 py-3 pr-10 text-sm focus:border-blue-500 focus:ring-blue-500 ring-gray-100"
+                            class="h-10 block w-full rounded-sm px-4 py-3 pr-10 border border-gray-300 text-sm focus:border-blue-500 focus:ring-blue-500 ring-gray-100 border border-gray-300"
                             placeholder="Retype Password" />
                         <svg class="absolute right-3 top-2.5 h-5 w-5 text-gray-500" xmlns="http://www.w3.org/2000/svg"
                             fill="white" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">

@@ -18,7 +18,7 @@ To run this project run
 ```
 
 ```bash
-  cd my-project
+  cd auth.test
 ```
 
 
